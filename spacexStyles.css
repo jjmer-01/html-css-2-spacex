@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-weight: 1px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.headNav {
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.projectNav > ul {
+    display: flex;
+    font-size: 15px;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.headNavRight > ul{
+    display: flex;
+    font-size: 12px;
+    color: grey;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.headNavLeft {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.headLogo {
+    max-height: 25px;
+}
+
+/* MAIN IMAGE BLOCK */
+
+
+#mainImage {
+    width: 100vw;
+    min-height: 327px;
+    min-width: 480px;
+    max-height: 654px;
+}
+
+.mainImgCaption {
+    background-color: black;
+    opacity: .7;
+    font-size: 30px;
+    color: white;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 570px;
+    width: 100vw;
+    padding: 20px;
+}
+
+
+button {
+    height: 40px;
+    width: 180px;
+    border-radius: 3px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 4px;
+    color: black;
+}
+
+/* SUB TITLE/DESCRIPTION */
+
+.subTitle {
+    font-size: 18px;
+    display: flexbox;
+    text-align: center;
+    margin: 30px;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 260px;
+    width: 350px;
+    box-shadow: 1px 1px 3px 1px #bebdbd;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cardImg {
+    height: 110px;
+    width: 200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    display: flexbox;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.footUl {
+    display: flexbox;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.footLink {
+    color: white;
+    font-size: 12px;
+    font-weight: 1px;
+    
+}
+
+.copyright {
+    color: grey;
+    font-size: 10px;
+}
+
+
+
